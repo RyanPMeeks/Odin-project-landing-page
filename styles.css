@@ -63,27 +63,47 @@ button {
 
 #infoSection {
     display: flex;
-    padding: 10%;
+    flex-direction: column;
+    padding: 2% 10%;
     flex: 1;
     justify-content: space-around;
     background-color: none;
     color: #1f2937;
     gap: 80px;
+    margin: 0 25px;
+}
+
+.infoTitle {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.infoPhotos {
+    display: flex;
+    /* margin: 10px; */
+    justify-content: space-around;
 }
 
 #infoSection div img {
-    height: 200px;
+    height: 150px;
 }
 
 #quote {
     display: flex;
-    padding: 5%;
+    padding: 5% 25%;
     flex-direction: column;
     flex: 1;
     justify-content: space-evenly;
     background-color: #bebebe;
     color: #1f2937;
-    gap: 80px;
+    gap: 10px;
     
+}
+
+b {
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
 }
 
