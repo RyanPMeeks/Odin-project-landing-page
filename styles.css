@@ -84,7 +84,6 @@ button {
 
 .infoPhotos {
     display: flex;
-    /* margin: 10px; */
     justify-content: space-around;
 }
 
